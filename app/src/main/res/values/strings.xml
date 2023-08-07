@@ -10,10 +10,12 @@
     <string name="menu_home">Home</string>
     <string name="menu_demo_async">Demo Async</string>
 
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="btn_start">Start !</string>
     <string name="counter_default">Compteur !</string>
     <string name="incr_counter">Compteur : %d</string>
     <string name="btn_life">In life ?</string>
     <string name="counter_end">Finish :o</string>
+    <string name="menu_demo_request">Demo Request</string>
+
+
 </resources>

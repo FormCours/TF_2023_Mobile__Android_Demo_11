@@ -17,4 +17,10 @@
         android:label="@string/menu_demo_async"
         tools:layout="@layout/fragment_demo_async" />
 
+    <fragment
+        android:id="@+id/nav_demo_request"
+        android:name="be.tftic.web2023.demo11_async_webrequest.ui.demorequest.DemoRequestFragment"
+        android:label="@string/menu_demo_request"
+        tools:layout="@layout/fragment_demo_request" />
+
 </navigation>
