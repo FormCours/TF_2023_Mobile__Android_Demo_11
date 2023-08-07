@@ -16,6 +16,7 @@
     <string name="btn_life">In life ?</string>
     <string name="counter_end">Finish :o</string>
     <string name="menu_demo_request">Demo Request</string>
+    <string name="btn_request">Call API</string>
 
 
 </resources>
