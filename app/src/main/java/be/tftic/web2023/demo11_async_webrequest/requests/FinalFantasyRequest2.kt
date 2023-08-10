@@ -42,6 +42,7 @@ class FinalFantasyRequest2(val onRequestResultListener : OnRequestResultListener
                 catch (error : Exception) {
                     withContext(Dispatchers.Main) { onRequestResultListener.onRequestErrorResult(error.message ?: "Unknown Exception") }
                 }
+                return@run
             }
 
             withContext(Dispatchers.Main) { onRequestResultListener.onRequestErrorResult("Connection not open")}
